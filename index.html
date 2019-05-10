@@ -24,8 +24,13 @@
       media="screen,projection"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei"
+    />
+
     <link rel="stylesheet" href="/css/bunny1.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
@@ -41,8 +46,8 @@
           </div>
         </div>
 
-        <div class="col s6">
-            <h1 class="center-align">Szia Nyuszi!</h1>
+        <div class="col s6 center-align textBorder">
+          <h1>Üdv Kyra!</h1>
         </div>
 
         <div class="col s3 right-align">
@@ -56,10 +61,10 @@
               xmlns:xlink="http://www.w3.org/1999/xlink"
               x="0px"
               y="0px"
-              width="200px"
-              height="200px"
+              width="162px"
+              height="162px"
               viewBox="0 0 800 800"
-              style="enable-background:new 0 0 200 200;"
+              style="enable-background:new 0 0 162 162;"
               xml:space="preserve"
             >
               <style type="text/css">
@@ -126,7 +131,6 @@
                     style="display:inline;overflow:visible;opacity:0.75;"
                     width="1838"
                     height="2260"
-                    xlink:href="4F602C07.png"
                     transform="matrix(0.24 0 0 0.24 181.5527 134.8428)"
                   ></image>
                   <g class="st38">
@@ -1024,10 +1028,61 @@
           </div>
         </div>
       </div>
+
+      <div id="main">
+        <div class="row">
+          <div class="col s6 textBorder">
+            <strong>Google Search</strong>
+          </div>
+          <div class="col s6 right-align textBorder">
+            <span id="clock"></span>
+          </div>
+        </div>
+        <form
+          action="https://www.google.com/search"
+          class="searchform textBorder"
+          method="get"
+          name="searchform"
+        >
+          <input name="sitesearch" type="hidden" value="" />
+          <input
+            autocomplete="off"
+            id="google-search"
+            name="q"
+            placeholder="Keresés..."
+            required="required"
+            type="text"
+          />
+        </form>
+      </div>
+      <footer class="footer">
+            <div class="flexSpaceBetween waves-effect waves-light">
+              <a href="https://mail.google.com/mail/u/0/#inbox">
+                <img src="/img/icons/gmail.svg" height="60px" />
+              </a>
+              <a href="https://www.facebook.com/">
+                <img src="/img/icons/fb.ico" height="60px" />
+              </a>
+              <a href="https://mail.yahoo.com/?.lang=hu-HU">
+                <img src="/img/icons/Yahoo.png" height="60px" />
+              </a>
+              <a href="https://klik200920016.e-kreta.hu/Adminisztracio/Login">
+                <img
+                  src="/img/icons/kreta.jpg"
+                  height="60px"
+                  style="border-radius: 50%"
+                />
+              </a>
+              <a href="https://www.instagram.com/?hl=hu">
+                <img src="/img/icons/instagram.png" height="60px" />
+              </a>
+            </div>
+          </footer>
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/clock.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>
