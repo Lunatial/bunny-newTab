@@ -63,6 +63,19 @@ h1 {
   color: #EE6F98;
 }
 
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-container {
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: "ZCOOL XiaoWei", serif;
+}
+
 .flexSpaceBetween {
   display: flex;
   justify-content: space-around;
@@ -73,5 +86,11 @@ h1 {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1.5rem;
+  padding-bottom: 8px;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 8px;
+    }
+  }

@@ -11,6 +11,13 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/img/icons/easter_rabbit_bunny.png"
+    />
+
     <!--Import Google Icon Font-->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -1055,34 +1062,51 @@
           />
         </form>
       </div>
+
+
+
+      <div class="weather-container textBorder">
+        <div class="row flexCenter">
+            <div id="city" class="col"></div>
+        </div>
+        <div class="row flexCenter">
+            <div id="weather-description" class="col"></div>
+            <div class="col">-</div>
+            <div id="temp" class="col"></div>
+        </div>
+      </div>
+
+
+
       <footer class="footer">
-            <div class="flexSpaceBetween waves-effect waves-light">
-              <a href="https://mail.google.com/mail/u/0/#inbox">
-                <img src="/img/icons/gmail.svg" height="60px" />
-              </a>
-              <a href="https://www.facebook.com/">
-                <img src="/img/icons/fb.ico" height="60px" />
-              </a>
-              <a href="https://mail.yahoo.com/?.lang=hu-HU">
-                <img src="/img/icons/Yahoo.png" height="60px" />
-              </a>
-              <a href="https://klik200920016.e-kreta.hu/Adminisztracio/Login">
-                <img
-                  src="/img/icons/kreta.jpg"
-                  height="60px"
-                  style="border-radius: 50%"
-                />
-              </a>
-              <a href="https://www.instagram.com/?hl=hu">
-                <img src="/img/icons/instagram.png" height="60px" />
-              </a>
-            </div>
-          </footer>
+        <div class="flexSpaceBetween waves-effect waves-light">
+          <a href="https://mail.google.com/mail/u/0/#inbox">
+            <img src="/img/icons/gmail.svg" height="60px" />
+          </a>
+          <a href="https://www.facebook.com/">
+            <img src="/img/icons/fb.ico" height="60px" />
+          </a>
+          <a href="https://mail.yahoo.com/?.lang=hu-HU">
+            <img src="/img/icons/Yahoo.png" height="60px" />
+          </a>
+          <a href="https://klik200920016.e-kreta.hu/Adminisztracio/Login">
+            <img
+              src="/img/icons/kreta.jpg"
+              height="60px"
+              style="border-radius: 50%"
+            />
+          </a>
+          <a href="https://www.instagram.com/?hl=hu">
+            <img src="/img/icons/instagram.png" height="60px" />
+          </a>
+        </div>
+      </footer>
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>
