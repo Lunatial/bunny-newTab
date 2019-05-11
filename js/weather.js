@@ -2,7 +2,7 @@ let xhr = new XMLHttpRequest();
 
 xhr.open(
     "GET",
-    "http://api.openweathermap.org/data/2.5/weather?q=Kecskemét&units=metric&appid=e5b292ae2f9dae5f29e11499c2d82ece"
+    "http://api.openweathermap.org/data/2.5/weather?q=Kecskemét&&lang=hu&units=metric&appid=e5b292ae2f9dae5f29e11499c2d82ece"
 );
 
 xhr.onload = async () => {
